@@ -1,24 +1,13 @@
-# README
+# API 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> https://app.swaggerhub.com/apis-docs/eduardolagares5/Pushbox/0.0.1
 
-Things you may want to cover:
+# YARD DOC
 
-* Ruby version
+## Para gerar o doc execute
 
-* System dependencies
+> yard doc
 
-* Configuration
+## Visualização
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Abra o arquivo index.html da pasta doc
