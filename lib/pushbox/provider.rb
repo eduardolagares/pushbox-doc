@@ -3,12 +3,10 @@
 #
 # @attr name [String] The name of provider. Ex. email, smtp, etc.
 # @attr config [JSON] Variables that the provider needs to work.
-# @attr type [Enum] The type of a provider.
 # @attr class_name [String] The name of the class that this provider use to send notifications
 # @attr synced_topics [Boolean] Define that this providers can or not sync topics.
-
+# @attr alias [String] The alias of provider.
 class Pushbox::Provider
-    enum type: [:expo, :email]
 
     # Returns the class that this provider use to delivery notifications. Each class returned should extends Provider::Delivery::Base
     # @return [Provider::Delivery::Base]
