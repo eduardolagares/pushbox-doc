@@ -2,7 +2,7 @@ lib/pushbox/topic.rb 387ce56214f26dcd066c1126c097ff11fdb4658c
 lib/pushbox/device.rb 78e5b8de1179447afd3054d7e52f751fb0a9b906
 lib/pushbox/system.rb 686600ea3c1d25103b2318bcd600d499fe5cc8ed
 lib/pushbox/pushbox.rb 1e025b345dc5f70d7d9ba551502fc7de74bfacab
-lib/pushbox/provider.rb d8ee7ee6d39f1098804388b6befe45dad74fdfc4
+lib/pushbox/provider.rb 8c947f6160b66a6194f79ac7e14c8d50fb14ce60
 app/jobs/application_job.rb 2d7aea448b6f7b6a9c182cd5369df41b5f338a7c
 lib/pushbox/notification.rb 446f088152472233ff0bac7346170deb9df01247
 lib/pushbox/subscription.rb 7cdac33d0b51652b83a41f293df8a5dbbdcdc8a1
