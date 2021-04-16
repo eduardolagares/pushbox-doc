@@ -1,0 +1,2 @@
+module Pushbox
+end
