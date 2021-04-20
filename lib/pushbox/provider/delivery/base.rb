@@ -6,22 +6,32 @@ module Pushbox::Provider::Delivery
         # This method has be capable to identify if this notification is to a Topic or a Device
         # @param notification [Notification] The notification tha will be sent
         # @abstract
-        def send(notification);end
+        def send(notification)
+            raise NotImplementedError.new
+        end
 
         # Creates a topic on provider. It is Used only when the provider accept synced topics
         # @abstract
-        def create_topic;end
+        def create_topic
+            raise NotImplementedError.new
+        end
 
         # Delete a topic on provider. It is Used only when the provider accept synced topics
         # @abstract
-        def delete_topic;end
+        def delete_topic
+            raise NotImplementedError.new
+        end
 
         # Subscribe a device to a topic. It is Used only when the provider accept synced topics
         # @abstract
-        def subscribe_to_topic(topic, device);end
+        def subscribe_to_topic(topic, device)
+            raise NotImplementedError.new
+        end
 
         # Unsubscribe a device to a topic. It is Used only when the provider accept synced topics
         # @abstract
-        def unsubscrive_from_the_topic(topic, device);end
+        def unsubscrive_from_the_topic(topic, device)
+            raise NotImplementedError.new
+        end
     end
 end
